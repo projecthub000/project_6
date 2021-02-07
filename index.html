@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>play</title>
+  <style>
+      body {
+        background-color: #56565d;
+        background:repeating-radial-gradient(
+                   circle at 0 0, 
+                   #eee,
+                   #ccc 50px
+                  );
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .container {
+        display: flex;
+        height: 80vh;
+        flex-wrap: wrap;
+        width: 500px;
+      }
+      .item {
+        background-color: #787a84;
+        width: 80px;
+        border-radius: 50%;
+        margin: 10px;
+     }
+     .palette {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #999999;
+      margin-top: 20px;
+     }
+    .color-option {
+     width: 20px;
+     height: 20px;
+     margin: 10px;
+    }  
+
+    .color-option:hover{
+      color:brown;
+      height: 40px;
+      width: 40px;
+    }     
+  </style>
+</head>
+<body>
+  <div>
+   <div class="container" id="dots">
+        <div class="item"></div>       
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+   </div>
+   <div class="palette" id="palette">
+    <div class="color-option"></div>
+    <div class="color-option"></div>
+    <div class="color-option"></div>
+    <div class="color-option"></div>
+    <div class="color-option"></div>
+   <div>
+   <script src="./domify.js"></script>  
+  </div>
+</body>
+</html>
